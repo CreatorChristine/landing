@@ -1,0 +1,148 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+body{
+	background: white;
+	color: rgb(20, 20, 20);
+	font-size: 14px;
+	font-family: 'Open Sans';
+	margin: 0;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #093A3B;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #09AAFB;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+a{
+	color: #96C8EE;
+	text-decoration: none;
+	font-family: 'Montserrat'. sans-serif;
+}
+
+a:hover{
+	text-decoration: none;
+	color: gray;
+}
+
+
+#banner {
+	text-align: left;
+	background-size: cover;
+ 	padding: 150px 0;
+  color: white;
+  padding-left: 200px;
+}
+
+#banner h1{
+	color: white;
+  font-weight: bolder;
+  font-size: 32px;
+
+}
+
+#banner p{
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+	opacity: 0.6;
+  margin-bottom: 70px;
+}
+
+.button {
+  background-color: #1EDD88;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-shadow: 1px 1px 15px aliceblue;
+}
+
+.button:hover {
+  background-color: rgba(30, 221, 135, 0.726);
+  color: white;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.container .card {
+	text-align: center;
+  padding: 10px 30px;
+  box-shadow: 2px 2px 10px gray;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.container .card img {
+  height: 150px;
+  width: 100px;
+  size: auto;
+}
+
+.card p {
+  opacity: 0.8;
+}
+
+#footer{
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	background: black;
+	padding: 50px;
+	margin-top: 40px;
+  margin-bottom: 0;
+}
+
+#footer a{
+	font-size: 40px;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
